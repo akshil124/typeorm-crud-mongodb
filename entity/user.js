@@ -1,6 +1,6 @@
 var EntitySchema = require("typeorm").EntitySchema
 
-module.exports = new EntitySchema({
+const User = new EntitySchema({
     name : "User",
     columns: {
         name: {
@@ -9,4 +9,5 @@ module.exports = new EntitySchema({
         }
     },
 })
+module.exports=User
 
