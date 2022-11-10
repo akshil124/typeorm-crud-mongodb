@@ -1,0 +1,15 @@
+{
+    "type": "mongodb",
+    "host": "localhost",
+    "port": 5432,
+    "database": "crud",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+       "model/user.js"
+    ],
+    "cli": {
+       "entitiesDir": "src/modal"
+       
+    }
+ }
